@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculator</title>
+    
+</head>
+
+<body>
+
+
+    <BR></BR>
+    <center>
+        <table border="1" bgclolor="" class="pinakas">
+            <tr>
+                <td>
+                    <h1 id="parametres" style="padding: 7px;">
+                        <font color="white"></font>0</h1>
+                </td>
+            </tr>
+        </table>
+
+        <input type="button" id="DEL" value="DEL" class="butt" onclick="myDelete()" />
+        <input type="button" id="^" value="^" class="butt" onclick="mySymbols(this.id)" />
+        <input type="button" id="√" value="√" class="butt" onclick="mySqrt()" />
+        <input type="button" id="/" value="/" class="butt" onclick="mySymbols(this.id)" /><br>
+        <input type="button" id="7" value="7" class="butt" onclick="myFunction(this.id)" />
+        <input type="button" id="8" value="8" class="butt" onclick="myFunction(this.id)" />
+        <input type="button" id="9" value="9" class="butt" onclick="myFunction(this.id)" />
+        <input type="button" id="*" value="*" class="butt" onclick="mySymbols(this.id)" /><br>
+        <input type="button" id="4" value="4" class="butt" onclick="myFunction(this.id)" />
+        <input type="button" id="5" value="5" class="butt" onclick="myFunction(this.id)" />
+        <input type="button" id="6" value="6" class="butt" onclick="myFunction(this.id)" />
+        <input type="button" id="-" value="-" class="butt" onclick="mySymbols(this.id)" /><br/>
+        <input type="button" id="1" value="1" class="butt" onclick="myFunction(this.id)" />
+        <input type="button" id="2" value="2" class="butt" onclick="myFunction(this.id)" />
+        <input type="button" id="3" value="3" class="butt" onclick="myFunction(this.id)" />
+        <input type="button" id="+" value="+" class="butt" onclick="mySymbols(this.id)" /><br>
+        <input type="button" id="C" value="C" class="butt" onclick="myC()" />
+        <input type="button" id="0" value="0" class="butt" onclick="myFunction(this.id)" />
+        <input type="button" id="." value="," class="butt" onclick="myFloat()" />
+        <input type="button" id="=" value="=" class="butt" onclick="myEqual()" /><br>
+
+    </center>
+    <script src="simplecalculator.js "></script>
+</body>
+
+</html>
